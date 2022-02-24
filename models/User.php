@@ -12,6 +12,7 @@
     }
 
 
+
 interface UserDAOinterface {
     public function buildUser ($data);
     public function create(User $user, $authUser = false); 
